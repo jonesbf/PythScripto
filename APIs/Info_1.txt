@@ -1,0 +1,18 @@
+REST
+In fact, this client/server relationship is a prerequisite of a set of principles called REST (or Representational State Transfer). 
+
+Remember how we said HTTP involves sending hypertext (text with links)? 
+Whenever you navigate through a site by clicking links, you're making a state transition, which brings you to the next page (representing the next state of the application).
+
+By following this simple model of clicking from page to page, you're starting to follow REST principles. 
+When something follows REST principles, we say that thing is RESTful. 
+
+A RESTful API
+
+An API, or application programming interface, is kind of like a coding contract: it specifies the ways a program can interact with an application. For example, if you want to write a program that reads and analyzes data from Twitter, you'd need to use the Twitter API, which would specify the process for authentication, important URLs, classes, methods, and so on.
+
+For an API or web service to be RESTful, it must do the following:
+
+    Separate the client from the server
+    Not hold state between requests (meaning that all the information necessary to respond to a request is available in each individual request; no data, or state, is held by the server from request to request)
+    Use HTTP and HTTP methods (as explained in the next section).
